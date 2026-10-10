@@ -4,10 +4,10 @@ using System.Collections.Generic;
 /*
  * EXCEEDING REQUIREMENTS
  * 1. No repeated prompts or questions: the Reflecting and Listing activities
- *    shuffle through their lists and only reuse an item after every item has
- *    been shown once in the session.
- * 2. Session log: the program counts how many times each activity was
- *    completed and displays a summary when the user quits.
+ *    randomly select prompts and questions without repeating an item until
+ *    every item in the corresponding list has been used once.
+ * 2. Session log: the program counts how many times each activity is run
+ *    and displays a summary when the user quits.
  */
 class Program
 {
