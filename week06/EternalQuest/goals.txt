@@ -1,0 +1,2 @@
+350
+ChecklistGoal:Attend the temple|Go to the temple 3 times|50|200|3|3
